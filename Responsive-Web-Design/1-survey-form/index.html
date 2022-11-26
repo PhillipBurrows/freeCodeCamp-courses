@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <h1 id="title">Bitcoin Investing & Mining Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -13,6 +13,7 @@
         <input id="email" type="email" placeholder="Enter your email" required></input>
         <label id="number-label">Age (optional)</label>
         <input id="number" type="number" min="10" max="99" placeholder="Age"></input>
+        <label>What is your line of work?</label>
         <select id="dropdown">
             <option>Student</option>
             <option>Full Time Job</option>
@@ -20,8 +21,15 @@
             <option>Prefer not to say</option>
             <option>Other</option>
         </select>
-        <label>Would you recommend freeCodeCamp to a friend?</label>
-        <input> 
+        <label>Would you recommend bitcoin mining to a friend?</label>
+        <label><input type="radio" name="radio1" class="inline" value="recommends-mining"> Yes</label>
+        <label><input type="radio" name="radio1" class="inline" value="doesnt-recommend"> No</label>
+        <label>What are your finanical goals?</label>
+        <label><input id="" type="checkbox" class="inline" value="ret-sav"> Saving for retirement</label>
+        <label><input id="" type="checkbox" class="inline" value="ed-sav"> Saving for education</label>
+        <label>Any suggestions or comments?</label>
+        <textarea placeholder="Enter your comments here..."></textarea>
+        <input type="submit" value="Submit" id="submit">
     </form>
     <form></form>
 </html>
