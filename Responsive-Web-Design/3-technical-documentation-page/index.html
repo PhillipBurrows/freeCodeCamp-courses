@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>    
+    <body>
+        <nav id="navbar">
+            <header>Bitcoin Transaction Anatomy</header>
+            <ul>
+                <li>
+                    <a class="nav-link" href="#Introduction">Introduction</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Version">Version</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Input_Count">Input Count</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Input_UTXO">Input UTXO</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Output_Count">Output Count</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Output_UTXO">Output UTXO</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <img id="transaction-visual" src="https://privatekeys.files.wordpress.com/2018/04/table1a.png">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <p>
+                    Bitcoin transactions are short text files that contain information necessary to validate a double entry on the bitcoin blockchain. Each transaction contains a credit that demonstrates ownership and validation of the spend of an input unspent transaction output (UTXO). The transaction debits the spent bitcoin to a locking script that belongs to the destination of the funds. 
+                </p>
+                <p>
+                    Transactions are propagated through the bitcoin network to each node for validation against the existing data of the blockchain stored on each node. Mining nodes pick up valid transactions and build blocks to permanently lock in the transactions on the blockchain. The blockchain can be considered an append-only ledger. The following document will outline the elements necessary to build a valid transaction.
+                </p>
+                <p>
+                    All transactions can be searched by a transaction ID (TXID). TXIDs are created by double hashing the transaction data. Here is the TXID of the transaction we will be using in this document: 
+                </p>
+                <code>
+                    062705266f28912f2703066a912ea5772c4da4caa5a5fbd8a57286c345c2f2
+                </code>
+                <li></li>
+            </section>
+            <section class="main-section" id="Version">
+                <header>Version</header>
+                <article>
+                    <p>gtergt</p>
+                    <p>gerg</p>
+                    <code></code>
+                    <li></li>
+                </article>
+            </section>
+            <section class="main-section" id="Input_Count">
+                <header>Input Count</header>
+                <p>etge</p>
+                <p>gege</p>
+                <code></code>
+                <li></li>
+            </section>
+            <section class="main-section" id="Input_UTXO">
+                <header>Input UTXO</header>
+                <p>geger</p>
+                <p>gerg</p>
+                <code></code>
+                <li></li>
+            </section>
+            <section class="main-section" id="Output_Count">
+                <header>Output Count</header>
+                <p>ergeg</p>
+                <p>gegre</p>
+                <code></code>
+                <li></li>
+            </section>
+            <section class="main-section" id="Output_UTXO">
+                <header>Output UTXO</header>
+                <p>ergeg</p>
+                <p>gegre</p>
+                <code></code>
+                <li></li>
+            </section>
+        </main>
+    </body>
+</html>
