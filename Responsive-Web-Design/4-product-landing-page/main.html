@@ -4,20 +4,46 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <img id="header-img" src="https://www.pngmart.com/files/6/Maple-Leaf-PNG-Transparent-1.png" alt="maple leaf logo">
-                <h1 class="company-name">Burrows & Sons Maple Farms</h1>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li>History</li>
-                    <li>Ecology</li>
-                    <li>Our Product</li>
-                </ul>
-            </nav>
-        </header>
-        <div class="hero"></div>
-        <div class="container"></div>
+        <div class="hero">
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="https://www.pngmart.com/files/6/Maple-Leaf-PNG-Transparent-1.png" alt="maple leaf logo">
+                    <h1 class="company-name">Burrows & Sons Maple Farms</h1>
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#our-product">Our Product</a></li>
+                        <li><a class='nav-link' href='#how-its-made'>How it's Made</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="container">
+            <section id="our-product">
+                <h2>Our Product</h2>
+                <img id="syrup-can" alt="syrup-can" src="https://i5.walmartimages.com/asr/29389b67-4d4c-4c2e-b748-748d82bbc3c5.3bad7de8e69c7b211f7269352acdc151.jpeg">
+            </section>
+            <section id="how-its-made">
+                <h2>How it's Made</h2>
+                <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/nt5g9zcBXeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <h2>Pricing</h2>
+                <p>We only sell in bulk currently, use our contact form to get in touch about pricing. We can accomodate orders of 1k to 100k units.</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="John Deer"><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+                    <label for="comment">Request or Comment</label><br>
+                    <input type="text" id="request" name="request" value="Message"><br>
+                    <input id='submit' type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
     </body>
+    <footer>
+        <p>This is a project site for a freeCodeCamp course.</p>
+    </footer>
 </html>
